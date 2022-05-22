@@ -1,5 +1,5 @@
-score =input("Enter the Score between 0.0 and 1.0: ")
-score = float(score)
+scores =input("Enter the Score between 0.0 and 1.0: ")
+score = float(scores)
 if(score>=1.0 or score <=0.0):
     print ("out of range") 
 elif (score >= 0.9):
