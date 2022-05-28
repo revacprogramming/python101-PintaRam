@@ -2,12 +2,12 @@ fname = input("Enter file:")
 if len(fname) < 1 : name = "mbox-short.txt"
 hand = open(fname)
 
-lst = list()
+LIST = list()
 
 for line in hand:
     if not line.startswith("From:"): continue
     line = line.split()
-    lst.append(line[1])
+    LIST.append(line[1])
 
 counts = dict()
 for word in lst:
