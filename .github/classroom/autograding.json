@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Test01",
+      "name": "ActivitySet&#35;1_problem&#35;02.py",
       "setup": "",
       "run": "python3 ActivitySet#1/problem#02.py",
       "input": "",
-      "output": "[Hh]ello [Ww]orld",
+      "output": "^[Hh]ello [Ww]orld.*",
       "comparison": "regex",
       "timeout": 1,
       "points": 1
