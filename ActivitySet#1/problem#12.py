@@ -1,4 +1,4 @@
-name = input("ENTER THE NAME OF A FILE:")
+name = input("ENTER THE NAME OF A FILE AS YOU LIKE:")
 if len(name) < 1 : name = "mbox-short.txt"
 handle = open(name)
 d=dict()
