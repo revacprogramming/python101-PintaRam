@@ -1,4 +1,4 @@
-""""from socket import *
+"""from socket import *
 from codecs import decode
 host = "local host"
 port = 5000
@@ -8,7 +8,7 @@ server = socket(AF_INET, SOCK_STREAM)
 server.connect(address )
 dayandtime = decode(server.recv(bufsize), "ascii")
 print(dayandtime)
-server.close() """"
+server.close() """
 
 
 
