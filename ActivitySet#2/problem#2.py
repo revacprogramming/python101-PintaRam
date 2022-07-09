@@ -14,6 +14,6 @@ def main():
 
     output(a, b, sum)
 
-name = "__main__"
+name = "__main__";
 if __name__ == '__main__':
     main()
