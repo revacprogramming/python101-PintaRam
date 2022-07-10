@@ -10,7 +10,7 @@ cur.execute('''
 DROP TABLE IF EXISTS Counts''')
 
 cur.execute('''
-CREATE TABLE Counts (org TEXT, count INTEGER)''')
+CREATE TABLE Counts (org TEXT, count INTEGER)''');
 
 fname = raw_input('Enter file name: ')
 if ( len(fname) < 1 ) : fname = 'mbox.txt'
