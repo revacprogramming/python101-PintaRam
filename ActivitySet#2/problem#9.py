@@ -18,8 +18,8 @@ m["vada"] = 20;
 
 o = Order(m)
 try:
-    o["vada"] = 2
-    o["pongal"] = 2
+    o["vada"] = 2;
+    o["pongal"] = 2;
 
 except KeyError as e:
     print(e)
