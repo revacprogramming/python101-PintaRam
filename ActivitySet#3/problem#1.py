@@ -19,7 +19,7 @@ class rectangle:
     def output(self):
         print("area of rectangle" , self.area);
 
-ob = rectangle()
+ob = rectangle();
 #ob.input();
 ob.calculate();
 ob.output();
