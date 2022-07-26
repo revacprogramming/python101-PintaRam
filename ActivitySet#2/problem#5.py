@@ -5,7 +5,7 @@ def get_str():
   return name
 
 def str_to_dict(str):
-  """convert connect string to a dictionary"""
+  """convert ;lconnect string to a dictionary"""
   l=[]
   t=tuple()
   str=str.split(';')
